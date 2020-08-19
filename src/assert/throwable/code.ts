@@ -1,6 +1,4 @@
 import CodeType from "../../boolean/string/code";
-import Function from "@dikac/t-function/function";
-import Callback from "@dikac/t-function/assert/throwable/callback";
 
 /**
  * Standard Error for not compatible with code
