@@ -1,0 +1,2 @@
+# t-code
+typescript code
