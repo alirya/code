@@ -4,7 +4,7 @@ export default function Code<
     Type
 >(
     value : CodeInterface,
-    validation : (value:unknown)=>Type
+    validation : (value:unknown)=>value is Type
 ) : value is CodeInterface<Type> {
 
     if(!validation(value.code)) {
