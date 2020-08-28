@@ -1,5 +1,4 @@
 import Guard from "../boolean/code";
-import Function from "@dikac/t-function/function";
 import Callback from "@dikac/t-function/assert/callback";
 import StringError from "./throwable/code";
 import CodeInterface from "../code";
@@ -14,7 +13,7 @@ import CodeInterface from "../code";
  */
 export default function Code(
     value : object,
-    error : Function<[object], Error> = StringError
+    error : (value:object)=>Error = StringError
 ) : asserts value is CodeInterface {
 
     Callback(value, Guard, error);

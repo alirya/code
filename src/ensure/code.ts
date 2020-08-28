@@ -1,4 +1,3 @@
-import Function from "@dikac/t-function/function";
 import AssertString from "../assert/code";
 import CodeError from "../assert/throwable/code";
 import CodeInterface from "../code";
@@ -13,7 +12,7 @@ import CodeInterface from "../code";
  */
 export default function Code(
     value : object,
-    error : Function<[object], Error> = CodeError
+    error : (value:object)=>Error = CodeError
 ) : CodeInterface {
 
     AssertString(value, error);
