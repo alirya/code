@@ -1,1 +1,1 @@
-{"version":3,"file":"assign-object.js","sourceRoot":"","sources":["../../src/error/assign-object.ts"],"names":[],"mappings":";;;;;;;;;;;IACA,qCAA8B;IAE9B;;;;;OAKG;IACH,SAAwB,YAAY,CAIhC,KAAqB,EACrB,IAAyB;QAGzB,OAAO,gBAAM,CAAC,KAAK,EAAE,IAAI,CAAC,IAAI,CAAC,CAAA;IACnC,CAAC;IATD,+BASC"}
+{"version":3,"file":"assign-object.js","sourceRoot":"","sources":["../../src/error/assign-object.ts"],"names":[],"mappings":"AACA,OAAO,MAAM,MAAM,UAAU,CAAC;AAE9B;;;;;GAKG;AACH,MAAM,CAAC,OAAO,UAAU,YAAY,CAIhC,KAAqB,EACrB,IAAyB;IAGzB,OAAO,MAAM,CAAC,KAAK,EAAE,IAAI,CAAC,IAAI,CAAC,CAAA;AACnC,CAAC"}
