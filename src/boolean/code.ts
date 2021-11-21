@@ -8,11 +8,5 @@ export default function Code(
     value : object,
 ) : value is CodeInterface {
 
-    if(!PropertyExists(value, 'code')) {
-
-        return false;
-    }
-
-    return true;
-
+    return PropertyExists(value, 'code');
 }

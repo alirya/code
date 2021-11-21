@@ -1,4 +1,4 @@
-export default function Code(valid, value) {
+export default function Code(value, valid) {
     if (valid) {
         return `value is compatible with Code interface`;
     }

@@ -7,5 +7,5 @@ export default function Code(
     string : object,
 ) : Error {
 
-    return new TypeError(CodeType(false, string));
+    return new TypeError(CodeType(string, false));
 }

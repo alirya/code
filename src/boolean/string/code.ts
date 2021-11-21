@@ -1,6 +1,6 @@
 export default function Code(
-    valid : boolean,
     value : object,
+    valid : boolean,
 ) : string {
 
     if(valid) {

@@ -1,5 +1,5 @@
 import Guard from "../boolean/code";
-import Callback from "@dikac/t-function/assert/callback";
+import Callback from "@dikac/t-function/assert/callback-parameters";
 import StringError from "./throwable/code";
 /**
  * assert {@param value} is compatible with {@link CodeInterface}

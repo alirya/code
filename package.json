@@ -1,10 +1,10 @@
 {
   "name": "@dikac/t-code",
-  "version": "0.2.3",
+  "version": "0.3.0-alpha.0",
   "description": "Typescript Code",
   "dependencies": {
-    "@dikac/t-function": "^0.14.1",
-    "@dikac/t-object": "^0.36.10",
+    "@dikac/t-function": "^0.15.0-beta.4",
+    "@dikac/t-object": "^0.37.0-alpha.1",
     "ts-toolbelt": "^9.6.0"
   },
   "devDependencies": {

@@ -1,1 +1,1 @@
-export default function Code(valid: boolean, value: object): string;
+export default function Code(value: object, valid: boolean): string;

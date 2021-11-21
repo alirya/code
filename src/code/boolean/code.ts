@@ -7,11 +7,5 @@ export default function Code<
     validation : (value:unknown)=>value is Type
 ) : value is CodeInterface<Type> {
 
-    if(!validation(value.code)) {
-
-        return false;
-    }
-
-    return true;
-
+    return validation(value.code);
 }

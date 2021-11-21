@@ -1,7 +1,4 @@
 export default function Code(value, validation) {
-    if (!validation(value.code)) {
-        return false;
-    }
-    return true;
+    return validation(value.code);
 }
 //# sourceMappingURL=code.js.map
