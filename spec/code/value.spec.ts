@@ -1,9 +1,9 @@
-import Value from "../../dist/code/value";
-import Code from "../../dist/code";
+import Value from '../../dist/code/value';
+import Code from '../../dist/code';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
-describe("compiler compatible", function() {
+describe('compiler compatible', function() {
 
     let code : Code<string> = {code:'string'};
 
@@ -11,7 +11,7 @@ describe("compiler compatible", function() {
 
 });
 
-it("result equal", function() {
+it('result equal', function() {
 
     let code : Code<string> = {code:'string'};
 

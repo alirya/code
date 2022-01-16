@@ -1,7 +1,7 @@
-import Guard from "../boolean/code";
-import Callback from "@alirya/function/assert/callback-parameters";
-import StringError from "./throwable/code";
-import CodeInterface from "../code";
+import Guard from '../boolean/code';
+import Callback from '@alirya/function/assert/callback-parameters';
+import StringError from './throwable/code';
+import CodeInterface from '../code';
 
 /**
  * assert {@param value} is compatible with {@link CodeInterface}

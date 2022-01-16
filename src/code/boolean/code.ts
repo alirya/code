@@ -1,4 +1,4 @@
-import CodeInterface from "../../code";
+import CodeInterface from '../../code';
 
 export default function Code<
     Type

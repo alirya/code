@@ -1,8 +1,8 @@
-import Type from "../../../dist/code/boolean/code";
-import ObjectType from "@alirya/object/boolean/object";
-import Code from "../../../dist/code";
+import Type from '../../../dist/code/boolean/code';
+import ObjectType from '@alirya/object/boolean/object';
+import Code from '../../../dist/code';
 
-it("force console log", () => { spyOn(console, 'log').and.callThrough();});
+it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 describe(`compiler compatible`,function() {
 
@@ -20,15 +20,15 @@ describe(`compiler compatible`,function() {
 
 });
 
-describe("valid", function() {
+describe('valid', function() {
 
-    it("object", () => {
+    it('object', () => {
 
         let code = {code :{}};
-        expect(Type(code, ObjectType)).toBe(true)
+        expect(Type(code, ObjectType)).toBe(true);
     });
 
-    it("class", () => {
+    it('class', () => {
 
         class C {
             constructor(
@@ -36,19 +36,19 @@ describe("valid", function() {
             ){}
         }
 
-        expect(Type(new C, ObjectType)).toBe(true)
+        expect(Type(new C, ObjectType)).toBe(true);
     });
 });
 
-describe("invalid value", function() {
+describe('invalid value', function() {
 
-    it("object", () => {
+    it('object', () => {
 
         let code = {code :1};
-        expect(Type(code, ObjectType)).toBe(false)
+        expect(Type(code, ObjectType)).toBe(false);
     });
 
-    it("class", () => {
+    it('class', () => {
 
         class C {
             constructor(
@@ -56,7 +56,7 @@ describe("invalid value", function() {
             ){}
         }
 
-        expect(Type(new C, ObjectType)).toBe(false)
+        expect(Type(new C, ObjectType)).toBe(false);
     });
 });
 

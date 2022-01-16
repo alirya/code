@@ -1,5 +1,5 @@
-import CodeInterface from "../code";
-import PropertyExists from "@alirya/object/property/boolean/exists";
+import CodeInterface from '../code';
+import PropertyExists from '@alirya/object/property/boolean/exists';
 
 /**
  * check if {@param value} is compatible with {@link CodeInterface}

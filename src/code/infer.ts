@@ -1,4 +1,4 @@
-import Code from "../code";
+import Code from '../code';
 
 /**
  * get {@link Code.code} type
