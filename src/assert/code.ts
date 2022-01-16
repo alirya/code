@@ -1,5 +1,5 @@
 import Guard from "../boolean/code";
-import Callback from "@dikac/t-function/assert/callback-parameters";
+import Callback from "@alirya/function/assert/callback-parameters";
 import StringError from "./throwable/code";
 import CodeInterface from "../code";
 

@@ -1,2 +1,2 @@
-# t-code
+# code
 typescript code

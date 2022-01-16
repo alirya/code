@@ -1,5 +1,5 @@
 import Type from "../../../dist/code/boolean/code";
-import ObjectType from "@dikac/t-object/boolean/object";
+import ObjectType from "@alirya/object/boolean/object";
 import Code from "../../../dist/code";
 
 it("force console log", () => { spyOn(console, 'log').and.callThrough();});
@@ -14,7 +14,7 @@ describe(`compiler compatible`,function() {
 
     } else {
 
-        // @ts-expect-error
+        // @ts-expecerror
         let code : object = data.code;
     }
 
