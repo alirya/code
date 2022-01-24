@@ -10,7 +10,7 @@ describe(`compiler compatible`,function() {
     if(Type(data)) {
         let code : Code = data;
     } else {
-        // @ts-expecerror
+        // @ts-expect-error
         let code : Code = data;
     }
 
