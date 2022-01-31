@@ -3,7 +3,7 @@ import Code from '../../dist/code';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
-describe(`compiler compatible`,function() {
+it(`compiler compatible`,function() {
 
     let data : object = {null:null};
 
