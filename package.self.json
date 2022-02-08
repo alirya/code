@@ -3,8 +3,8 @@
   "version": "0.3.1",
   "description": "Typescript Code",
   "dependencies": {
-    "@alirya/function": "0.15.0",
-    "@alirya/object": "0.37.1",
+    "@alirya/function": "^0.15.0",
+    "@alirya/object": "^0.37.1",
     "ts-toolbelt": "^9.6.0"
   },
   "homepage": "https://github.com/alirya/code",
