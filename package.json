@@ -1,11 +1,11 @@
 {
   "name": "@alirya/code",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Typescript Code",
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/function": "^0.15.0",
-    "@alirya/object": "^0.37.2",
+    "@alirya/function": "^0.16.0",
+    "@alirya/object": "^0.37.3",
     "ts-toolbelt": "^9.6.0"
   },
   "devDependencies": {
