@@ -1,11 +1,23 @@
 {
   "name": "@alirya/code",
-  "version": "0.3.2",
+  "version": "0.3.3",
   "description": "Typescript Code",
+  "publishConfig": {
+    "directory": "dist"
+  },
+  "author": {
+    "name": "Andika Candra"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/alirya/code",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alirya/code"
+  },
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/function": "^0.16.0",
-    "@alirya/object": "^0.37.3",
+    "@alirya/function": "^0.16.2",
+    "@alirya/object": "^0.37.4",
     "ts-toolbelt": "^9.6.0"
   },
   "devDependencies": {
@@ -27,6 +39,7 @@
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0"
   },
+  "private": true,
   "scripts": {
     "spec-run-js": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json",
     "spec-run": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json --reporter=jasmine-ts-console-reporter",
@@ -59,18 +72,5 @@
     "_release-remove-compile-cache": "rimraf ./dist/compiler-cache.json",
     "_doc-generate": "typedoc --entryPointStrategy expand ./src --out docs",
     "_doc-clean": "rimraf docs"
-  },
-  "publishConfig": {
-    "directory": "dist"
-  },
-  "author": {
-    "name": "Andika Candra"
-  },
-  "private": true,
-  "license": "Apache-2.0",
-  "homepage": "https://github.com/alirya/code",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/alirya/code"
   }
 }
