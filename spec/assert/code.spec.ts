@@ -1,5 +1,4 @@
 import Code from '../../dist/assert/code';
-import CodeInterface from '../../dist/code';
 
 it('enable console log', () => { spyOn(console, 'log').and.callThrough();});
 

@@ -1,5 +1,5 @@
 import Guard from '../boolean/code';
-import Callback from '@alirya/function/assert/callback-parameters';
+import {CallbackParameters} from '@alirya/function/assert/callback';
 import StringError from './throwable/code';
 import CodeInterface from '../code';
 
@@ -16,5 +16,5 @@ export default function Code(
     error : (value:object)=>Error = StringError
 ) : asserts value is CodeInterface {
 
-    Callback(value, Guard, error);
+    CallbackParameters(value, Guard, error);
 }

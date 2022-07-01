@@ -1,6 +1,3 @@
-// import Code from "../../dist/code";
-// import Value from "../../dist/code/value";
-// import Assign from "../../dist/error/assign";
 //
 // it("force console log", () => { spyOn(console, 'log').and.callThrough();});
 //
