@@ -1,5 +1,5 @@
-import Value from '../../dist/code/value';
-import Code from '../../dist/code';
+import Value from '../../dist/code/value.js';
+import Code from '../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 

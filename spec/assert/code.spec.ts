@@ -1,4 +1,4 @@
-import Code from '../../dist/assert/code';
+import Code from '../../dist/assert/code.js';
 
 it('enable console log', () => { spyOn(console, 'log').and.callThrough();});
 

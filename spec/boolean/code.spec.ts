@@ -1,5 +1,5 @@
-import Type from '../../dist/boolean/code';
-import Code from '../../dist/code';
+import Type from '../../dist/boolean/code.js';
+import Code from '../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
