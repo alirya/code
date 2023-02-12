@@ -1,6 +1,6 @@
-import AssertString from '../assert/code';
-import CodeError from '../assert/throwable/code';
-import CodeInterface from '../code';
+import AssertString from '../assert/code.js';
+import CodeError from '../assert/throwable/code.js';
+import CodeInterface from '../code.js';
 
 /**
  * return {@param value} is compatible with {@link CodeInterface}

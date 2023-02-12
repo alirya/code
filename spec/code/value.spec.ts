@@ -1,21 +1,21 @@
-import Value from '../../dist/code/value';
-import Code from '../../dist/code';
+import Value from '../../dist/code/value.js';
+import Code from '../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it('compiler compatible', function() {
 
-    let code : Code<string> = {code:'string'};
+    const code : Code<string> = {code:'string'};
 
-    let result : string = Value(code);
+    const result : string = Value(code);
 
 });
 
 it('result equal', function() {
 
-    let code : Code<string> = {code:'string'};
+    const code : Code<string> = {code:'string'};
 
-    let result : string = Value(code);
+    const result : string = Value(code);
 
     expect(result).toBe('string');
 

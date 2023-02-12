@@ -1,17 +1,17 @@
-import Type from '../../dist/boolean/code';
-import Code from '../../dist/code';
+import Type from '../../dist/boolean/code.js';
+import Code from '../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it(`compiler compatible`,function() {
 
-    let data : object = {null:null};
+    const data : object = {null:null};
 
     if(Type(data)) {
-        let code : Code = data;
+        const code : Code = data;
     } else {
         // @ts-expect-error
-        let code : Code = data;
+        const code : Code = data;
     }
 
 });
@@ -22,14 +22,14 @@ describe('unvalidated value', function() {
 
         it('string', () => {
 
-            let code = {code : 'string'};
+            const code = {code : 'string'};
             expect(Type(code)).toBe(true);
 
         });
 
         it('integer', () => {
 
-            let code = {code : 1};
+            const code = {code : 1};
             expect(Type(code)).toBe(true);
 
         });
@@ -39,14 +39,14 @@ describe('unvalidated value', function() {
 
         it('string', () => {
 
-            let code = {string:'string'};
+            const code = {string:'string'};
             expect(Type(code)).toBe(false);
 
         });
 
         it('integer', () => {
 
-            let code = {integer:1};
+            const code = {integer:1};
             expect(Type(code)).toBe(false);
 
         });
@@ -60,7 +60,7 @@ describe('validated value', function() {
 
         it('object', () => {
 
-            let code = {code :{}};
+            const code = {code :{}};
             expect(Type(code)).toBe(true);
         });
 
@@ -80,7 +80,7 @@ describe('validated value', function() {
 
         it('object', () => {
 
-            let code = {};
+            const code = {};
             expect(Type(code)).toBe(false);
         });
 

@@ -1,15 +1,15 @@
-import Code from '../../dist/assert/code';
+import Code from '../../dist/assert/code.js';
 
 it('enable console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it(`compiler compatible`,function() {
 
-    let data : object = {};
+    const data : object = {};
 
     try {
         Code(data);
 
-        let code : unknown = data.code;
+        const code : unknown = data.code;
 
         fail('exception should thrown');
 

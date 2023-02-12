@@ -1,5 +1,5 @@
-import Infer from './infer';
-import Code from '../code';
+import Infer from './infer.js';
+import Code from '../code.js';
 
 /**
  * get {@link Code.code} value

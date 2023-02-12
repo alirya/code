@@ -1,21 +1,21 @@
-import Type from '../../../dist/code/boolean/code';
-import ObjectType from '@alirya/object/boolean/object';
-import Code from '../../../dist/code';
+import Type from '../../../dist/code/boolean/code.js';
+import ObjectType from '@alirya/object/boolean/object.js';
+import Code from '../../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
 
 it(`compiler compatible`,function() {
 
-    let data : Code = {code:1};
+    const data : Code = {code:1};
 
     if(Type(data, ObjectType)) {
 
-        let code : object = data.code;
+        const code : object = data.code;
 
     } else {
 
         // @ts-expect-error
-        let code : object = data.code;
+        const code : object = data.code;
     }
 
 });
@@ -24,7 +24,7 @@ describe('valid', function() {
 
     it('object', () => {
 
-        let code = {code :{}};
+        const code = {code :{}};
         expect(Type(code, ObjectType)).toBe(true);
     });
 
@@ -44,7 +44,7 @@ describe('invalid value', function() {
 
     it('object', () => {
 
-        let code = {code :1};
+        const code = {code :1};
         expect(Type(code, ObjectType)).toBe(false);
     });
 

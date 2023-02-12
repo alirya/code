@@ -1,4 +1,4 @@
-import CodeType from '../../boolean/string/code';
+import CodeType from '../../boolean/string/code.js';
 
 /**
  * Standard Error for not compatible with code
