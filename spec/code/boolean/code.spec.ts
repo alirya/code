@@ -1,5 +1,5 @@
 import Type from '../../../dist/code/boolean/code.js';
-import ObjectType from '@alirya/object/boolean/object.js';
+import ObjectType from '@axiona/object/boolean/object.js';
 import Code from '../../../dist/code.js';
 
 it('force console log', () => { spyOn(console, 'log').and.callThrough();});
