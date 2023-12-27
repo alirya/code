@@ -1,6 +1,6 @@
 {
   "name": "@axiona/code",
-  "version": "0.4.1",
+  "version": "0.5.0",
   "description": "Typescript Code",
   "publishConfig": {
     "directory": "dist"
@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@axiona/function": "^0.17.1",
-    "@axiona/object": "^0.38.1",
+    "@axiona/function": "^0.18.0",
+    "@axiona/object": "^0.39.0",
     "ts-toolbelt": "^9.6.0"
   },
   "devDependencies": {
